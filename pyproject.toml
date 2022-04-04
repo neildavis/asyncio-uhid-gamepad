@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "asyncio-uhid-gamepad"
+description = "A USB HID Gamepad driver for Linux using asyncio and UHID"
+version = "0.0.1"
+readme = "README.md"
+requires-python = ">=3.7"
+authors = [ { name = "Neil Davis", email = "neil.nonsense@gmail.com" }]
+urls.homepage = "https://github.com/neildavis/asyncio-uhid-gamepad"
+keywords=["usb", "hid", "uhid", "gamepad"]
+dependencies = [
+    "uhid",
+]

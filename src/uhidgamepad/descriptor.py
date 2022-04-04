@@ -1,4 +1,5 @@
 """USB HID Gamepad Descriptor"""
+
 uhid_desc = [
     # Generic gamepad report descriptor
     0x05, 0x01,         # Usage Page (Generic Desktop Ctrls)

@@ -1,7 +1,7 @@
 import struct
 import uhid
 
-from descriptor import uhid_desc
+from .descriptor import uhid_desc
 
 DEFAULT_VENDOR_ID = 0x9999
 DEFAULT_PRODUCT_ID = 0x9999
